@@ -1,0 +1,164 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Administrador",
+      "email": "admin@bet.com",
+      "senha": "123",
+      "perfil": "admin",
+      "saldo": 0,
+      "pontos": 0
+    },
+    {
+      "id": 2,
+      "nome": "João Jogador",
+      "email": "joao@bet.com",
+      "senha": "123",
+      "perfil": "usuario",
+      "saldo": 1000,
+      "pontos": 150
+    },
+    {
+      "id": 3,
+      "nome": "Maria Silva",
+      "email": "maria@bet.com",
+      "senha": "123",
+      "perfil": "usuario",
+      "saldo": 750,
+      "pontos": 90
+    },
+    {
+      "id": 4,
+      "nome": "Pedro Costa",
+      "email": "pedro@bet.com",
+      "senha": "123",
+      "perfil": "usuario",
+      "saldo": 1200,
+      "pontos": 210
+    }
+  ],
+  "eventos": [
+    {
+      "id": 1,
+      "timeA": "Brasil",
+      "timeB": "Argentina",
+      "esporte": "Futebol",
+      "data": "2026-07-10",
+      "status": "aberto",
+      "resultado": "",
+      "oddA": 2.1,
+      "oddB": 3.5,
+      "oddEmpate": 2.8
+    },
+    {
+      "id": 2,
+      "timeA": "Flamengo",
+      "timeB": "Palmeiras",
+      "esporte": "Futebol",
+      "data": "2026-07-12",
+      "status": "aberto",
+      "resultado": "",
+      "oddA": 1.9,
+      "oddB": 2.3,
+      "oddEmpate": 3.1
+    },
+    {
+      "id": 3,
+      "timeA": "Lakers",
+      "timeB": "Bulls",
+      "esporte": "Basquete",
+      "data": "2026-07-08",
+      "status": "encerrado",
+      "resultado": "Lakers",
+      "oddA": 1.7,
+      "oddB": 2.5,
+      "oddEmpate": null
+    },
+    {
+      "id": 4,
+      "timeA": "Djokovic",
+      "timeB": "Alcaraz",
+      "esporte": "Tênis",
+      "data": "2026-07-15",
+      "status": "aberto",
+      "resultado": "",
+      "oddA": 2.0,
+      "oddB": 1.9,
+      "oddEmpate": null
+    }
+  ],
+  "apostas": [
+    {
+      "id": 1,
+      "usuarioId": 2,
+      "eventoId": 3,
+      "palpite": "Lakers",
+      "valor": 150,
+      "status": "ganhou",
+      "retorno": 255,
+      "data": "2026-07-07"
+    },
+    {
+      "id": 2,
+      "usuarioId": 3,
+      "eventoId": 3,
+      "palpite": "Bulls",
+      "valor": 100,
+      "status": "perdeu",
+      "retorno": 0,
+      "data": "2026-07-07"
+    },
+    {
+      "id": 3,
+      "usuarioId": 4,
+      "eventoId": 3,
+      "palpite": "Lakers",
+      "valor": 200,
+      "status": "ganhou",
+      "retorno": 340,
+      "data": "2026-07-07"
+    }
+  ],
+  "movimentacoes": [
+    {
+      "id": 1,
+      "usuarioId": 2,
+      "tipo": "aposta",
+      "descricao": "Aposta em Lakers vs Bulls",
+      "valor": -150,
+      "data": "2026-07-07"
+    },
+    {
+      "id": 2,
+      "usuarioId": 2,
+      "tipo": "premio",
+      "descricao": "Prêmio - Lakers venceu",
+      "valor": 255,
+      "data": "2026-07-08"
+    },
+    {
+      "id": 3,
+      "usuarioId": 3,
+      "tipo": "aposta",
+      "descricao": "Aposta em Lakers vs Bulls",
+      "valor": -100,
+      "data": "2026-07-07"
+    },
+    {
+      "id": 4,
+      "usuarioId": 4,
+      "tipo": "aposta",
+      "descricao": "Aposta em Lakers vs Bulls",
+      "valor": -200,
+      "data": "2026-07-07"
+    },
+    {
+      "id": 5,
+      "usuarioId": 4,
+      "tipo": "premio",
+      "descricao": "Prêmio - Lakers venceu",
+      "valor": 340,
+      "data": "2026-07-08"
+    }
+  ]
+}
