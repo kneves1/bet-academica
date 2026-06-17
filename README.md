@@ -6,8 +6,8 @@ Plataforma fictícia de apostas esportivas desenvolvida como trabalho acadêmico
 
 ## 👥 Integrantes
 
-- **João Victor Souza** — Responsável pelo módulo do administrador (eventos, resultados, estatísticas) e configuração do JSON Server.
-- **Ana Paula Ferreira** — Responsável pelo módulo do usuário (apostas, histórico, extrato, ranking) e configuração das rotas e Context API.
+- **Kauã Neves** — Responsável pelo módulo do administrador (eventos, resultados, estatísticas) e configuração do JSON Server.
+- **Arthur Santanna** — Responsável pelo módulo do usuário (apostas, histórico, extrato, ranking) e configuração das rotas e Context API.
 
 ---
 
