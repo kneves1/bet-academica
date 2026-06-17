@@ -143,7 +143,7 @@ src/
 
 ## 🔄 Divisão de Tarefas
 
-### João Victor Souza
+### Kauã Neves
 - Configuração inicial do projeto Vite + React
 - Configuração do JSON Server e db.json
 - Página de Login com autenticação simulada
@@ -151,7 +151,7 @@ src/
 - Lógica de atualização automática das apostas ao registrar resultado
 - Painel Estatístico do Admin
 
-### Ana Paula Ferreira
+### Arthur Santanna
 - Context API (AuthContext) e gerenciamento de sessão
 - Rotas protegidas por perfil (RotaPrivada)
 - Módulo Usuário: Dashboard, Eventos com filtro, Tela de Aposta
