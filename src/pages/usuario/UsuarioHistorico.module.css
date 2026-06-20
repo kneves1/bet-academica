@@ -1,0 +1,161 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.header { margin-bottom: 1.5rem; }
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.subtitulo {
+  color: #64748b;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.resumo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.resumoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  text-align: center;
+}
+
+.resumoLabel {
+  color: #64748b;
+  font-size: 0.75rem;
+}
+
+.resumoValor {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.verde { color: #22c55e; }
+.vermelho { color: #ef4444; }
+
+.filtros {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.filtroBtn {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #94a3b8;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.filtroBtn:hover { border-color: #16a34a; color: #fff; }
+
+.filtroAtivo {
+  background: #16a34a !important;
+  border-color: #16a34a !important;
+  color: #fff !important;
+}
+
+.carregando, .vazio {
+  text-align: center;
+  padding: 3rem;
+  color: #64748b;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-left: 4px solid #334155;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ganhou { border-left-color: #16a34a; }
+.perdeu { border-left-color: #ef4444; }
+.pendente { border-left-color: #f59e0b; }
+
+.cardLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  flex: 1;
+}
+
+.statusBadge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.eventoNome {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.esporte {
+  color: #64748b;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.palpite {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.palpite strong { color: #fff; }
+
+.dataAposta {
+  color: #475569;
+  font-size: 0.75rem;
+}
+
+.cardRight { text-align: right; }
+
+.valorLabel, .retornoLabel {
+  color: #64748b;
+  font-size: 0.7rem;
+}
+
+.valorNum {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.retornoNum {
+  color: #22c55e;
+  font-weight: 700;
+  font-size: 1rem;
+}
