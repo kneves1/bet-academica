@@ -1,0 +1,150 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.header { margin-bottom: 1.5rem; }
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.subtitulo {
+  color: #64748b;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.minhaPos {
+  background: rgba(22, 163, 74, 0.1);
+  border: 1px solid rgba(22, 163, 74, 0.3);
+  border-radius: 8px;
+  color: #94a3b8;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.minhaPos strong { color: #22c55e; }
+
+.legenda {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.legendaItem { font-weight: 500; }
+
+.carregando {
+  text-align: center;
+  padding: 3rem;
+  color: #64748b;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.item {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: border-color 0.2s;
+}
+
+.item:hover { border-color: #475569; }
+
+.top3 {
+  background: #1a2740;
+}
+
+.euSou {
+  border-color: #16a34a !important;
+  background: rgba(22, 163, 74, 0.05) !important;
+}
+
+.posicao {
+  font-size: 1.5rem;
+  font-weight: 800;
+  width: 40px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.jogadorInfo { flex: 1; }
+
+.nome {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.voce {
+  color: #22c55e;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.nivelTag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 0.1rem;
+}
+
+.pontos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.pontosNum {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #f59e0b;
+}
+
+.pontosLabel {
+  color: #64748b;
+  font-size: 0.7rem;
+}
+
+.saldoInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
+}
+
+.saldoNum {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #22c55e;
+}
+
+.saldoLabel {
+  color: #475569;
+  font-size: 0.7rem;
+}
+
+.obs {
+  margin-top: 1.5rem;
+  color: #475569;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .saldoInfo { display: none; }
+}
