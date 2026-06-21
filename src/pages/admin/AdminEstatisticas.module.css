@@ -1,0 +1,141 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.carregando {
+  text-align: center;
+  padding: 4rem;
+  color: #16a34a;
+}
+
+.header { margin-bottom: 2rem; }
+
+.titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.subtitulo {
+  color: #64748b;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.cardLabel {
+  color: #64748b;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardValor {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.verde { color: #22c55e; }
+.amarelo { color: #f59e0b; }
+
+.linha {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.bloco {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.blocoTitulo {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.barras {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.barraItem { display: flex; flex-direction: column; gap: 0.3rem; }
+
+.barraLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.barraFundo {
+  background: #334155;
+  border-radius: 99px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.barraPreench {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.5s ease;
+}
+
+.destaques {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.destaque {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.destaqueLabel {
+  color: #64748b;
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.destaqueValor {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+
+.destaqueDesc {
+  color: #22c55e;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 700px) {
+  .linha {
+    grid-template-columns: 1fr;
+  }
+}
